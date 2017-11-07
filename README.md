@@ -1,11 +1,15 @@
-SIP
+SIP (with Arduino Microcontroller)
 ====
 
-An improved Python port of the Arduino based OpenSprinkler firmware, originally based on V 1.8.3.
+An improved Python port of the Arduino based OpenSprinkler firmware intended to run on a server supporting Python2 ahnd MySQL or MariaDB alongside a client arduino device for valve control and sensor feedback. OpenSprinkler firmware originally based on V 1.8.3.
 This is an updated version of the Python Interval Program for OpenSprinkler Pi started by Dan Kimberling using the power of Python.
 
 For installation and usage instructions see the wiki for this repository:
 https://github.com/Dan-in-CA/SIP/wiki
+
+The only real difference in configuration is the port designation, which in my case is hard coded to 5005. All setup is exactly the same.
+
+In addition to this, a database must be configured to allow communication with the remote microcontroller for valve control. 
 
 ###To ask question and learn more about SIP please visit the **[SIP Forum](http://nosack.com/sipforum/index.php)**
 
